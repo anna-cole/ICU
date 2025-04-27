@@ -8,7 +8,7 @@ This project silently captures a user's geolocation (with permission) and sends 
 - Hides functionality behind a fake meme page
 - Sends location data (latitude, longitude, timestamp) to your backend
 - Admin-only map interface to view user locations in real-time
-- Deployable using **Render**
+- Deployed using **Render**
 
 ## 🛠️ Technologies Used
 
