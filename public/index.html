@@ -17,7 +17,7 @@
 
   <script>
     function sendLocation(lat, lon) {
-      fetch('/receive-location', {
+      fetch('https://icu-o8lh.onrender.com/receive-location', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
