@@ -1,28 +1,28 @@
-# 📍 Hidden Location Tracker
+# 📍 ICU - Hidden Location Tracker
 
-This project silently captures a user's geolocation (with permission) and sends it to a secure server. The user sees a fake error page, while the actual location is visible to the admin on a map (e.g. Leaflet or Google Maps).
+This project silently captures a user's geolocation (with permission) and sends it to a secure server. The user sees a fake meme page, while the actual location is visible to the admin on a map.
 
 ## 🚀 Features
 
 - Uses the **Geolocation API** (requires user consent)
-- Hides functionality behind a fake 404 error page
+- Hides functionality behind a fake meme page
 - Sends location data (latitude, longitude, timestamp) to your backend
 - Admin-only map interface to view user locations in real-time
-- Deployable using **Render** (or other Node.js-friendly hosts)
+- Deployable using **Render**
 
 ## 🛠️ Technologies Used
 
 - **Frontend:** HTML, JavaScript
 - **Backend:** Node.js, Express
-- **Map Display:** Leaflet.js or Google Maps API
+- **Map Display:** Leaflet.js
 - **Deployment:** Render
 - **Environment Variables:** Managed with `.env` + `dotenv`
 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/hidden-location-tracker.git
-cd hidden-location-tracker
+git clone https://github.com/yourusername/ICU.git
+cd ICU
 npm install
 ```
 
@@ -47,7 +47,7 @@ Then visit: [http://localhost:3000](http://localhost:3000)
 
 ## 🗺️ View Admin Map
 
-A separate route like `/admin` (or another protected route) can be used to show the locations on a map.
+A separate route `/admin.html` is used in the browser to show the location on a map.
 
 ## ⚠️ Disclaimer
 
